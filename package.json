@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@lambdatest/cypress-driver": "^1.0.6",
-    "@lambdatest/smartui-cli": "^3.0.2",
-    "cypress": "^13.7.0"
+    "@lambdatest/cypress-driver": "^1.0.8",
+    "@lambdatest/smartui-cli": "^3.0.11",
+    "cypress": "^13.11.0"
   }
 }
