@@ -28,6 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - name: SmartUI with Cypress 
+      env:
+        PROJECT_TOKEN: ${{secrets.PROJECT_TOKEN}}
+    
     - uses: cypress-io/github-action@v6
       with:
           browser: chrome
